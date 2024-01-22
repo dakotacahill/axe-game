@@ -10,6 +10,9 @@ int main()
     {
         BeginDrawing();
         ClearBackground(RED);
+
+        DrawCircle(175, 100, 25, WHITE);
+
         EndDrawing();
     }
 }
